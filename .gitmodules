@@ -1,0 +1,6 @@
+[submodule "services/gateway"]
+	path = services/gateway
+	url = https://github.com/razvantamsa/fastify-gateway.git
+[submodule "services/rest"]
+	path = services/rest
+	url = https://github.com/razvantamsa/express-rest-api.git
