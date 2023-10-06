@@ -1,0 +1,11 @@
+version: "3"
+services:
+  rest:
+    container_name: rest_container
+    build:
+      context: services/rest
+      dockerfile: .Dockerfile
+    ports:
+      - "3000:8000"
+    volumes:
+      - ./services/rest:/app
